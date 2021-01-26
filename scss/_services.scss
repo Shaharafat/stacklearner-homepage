@@ -1,0 +1,11 @@
+.services{
+  &__title {
+    font-family: 'Barlow condensed',sans-serif;
+  }
+
+  &__list{
+    &__image{
+      flex-basis: 45%;
+    }
+  }
+}

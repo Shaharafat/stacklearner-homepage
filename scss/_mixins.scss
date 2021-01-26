@@ -1,0 +1,48 @@
+// BACKGROUND IMAGE
+@mixin full-background-image($url) {
+  background: url($url) center center / cover;
+}
+
+// BUTTON
+@mixin btn($bg:$white,$border: 3px solid $red,$color: $red , $pad: .6rem 2rem){
+  background-color: $bg;
+  padding: $pad;
+  border: $border;
+  color: $color;
+  font-family: 'Barlow condensed', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+
+  &:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+  }
+}
+
+@mixin one-third-box(){
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items:center;
+  flex-wrap: wrap;
+  width: 31%;
+  &__icon{
+    width: 70px;
+    font-size: 3rem;
+    
+    & i{
+      color: $green; 
+    }
+  }
+
+  &__title,&__price{
+    margin-top: 1.5rem;
+    font-family: "Barlow condensed";
+    padding: 1rem;
+  }
+
+  &__details{
+    text-align: center;
+  }
+
+
+}

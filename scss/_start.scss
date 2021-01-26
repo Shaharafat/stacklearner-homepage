@@ -1,0 +1,10 @@
+.start{
+  @include full-background-image('./images/banner.png');
+  &__title{
+    font-family: 'Barlow condensed', sans-serif;
+  }
+
+  &__button{
+    @include btn($black,0,$white,.6rem 2rem);
+  }
+}

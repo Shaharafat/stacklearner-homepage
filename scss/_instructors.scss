@@ -1,0 +1,19 @@
+.instructors{
+  &__title{
+    font-family: "Barlow condensed",sans-serif;
+  }
+
+  &__box{
+    @include one-third-box;
+    align-items: flex-start;
+
+    &__title{
+      margin-top: .5rem !important;
+    }
+
+    &__position{
+      font-family: 'Barlow condensed',sans-serif;
+    }
+  }
+
+}

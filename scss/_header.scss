@@ -1,0 +1,27 @@
+.header{
+  height: 120vh;
+  @include full-background-image('./images/hero-bg.svg');
+
+  &__logo{
+    &__image{
+      width: 180px;
+    }
+  }
+  &__content{
+    height: 80%;
+
+    &__left{
+      flex-basis: 50%;
+    }
+
+    &__right{
+      flex-basis: 50%;
+
+      &__video{
+        width:100%;
+        height: 450px;
+        @include full-background-image('./images/video-thumb.svg')
+      }
+    }
+  }
+}

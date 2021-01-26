@@ -1,0 +1,36 @@
+.human-resource{
+  &__details{
+    flex-basis: 45%;
+
+    &__subtitle{
+
+    }
+
+    &__title{
+      font-family: 'Barlow condensed',sans-serif;
+      position: relative;
+      &::before{
+        content: "";
+        display: block;
+        height: 100%;
+        width: 8px;
+        background-color: $green;
+        position: absolute;
+        left: -20px;
+      }
+    }
+
+    &__description{
+      font-family: Montserrat, sans-serif;
+
+    }
+
+    &__button{
+      @include btn;
+    }
+  }
+
+  &__image{
+    flex-basis: 45%;
+  }
+}

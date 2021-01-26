@@ -1,0 +1,26 @@
+// variables
+
+// colors
+$green: #417505;
+$font-dark: #424242;
+$red: #ff5757;
+$white: #ffffff;
+$light-gray: #f0f0f0;
+$black: #000000;
+$gray: #efefef;
+
+.bg-light-gray {
+  background-color: $light-gray;
+}
+
+.bg-gray {
+  background-color: $gray;
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-gray{
+  color: $font-dark;
+}
